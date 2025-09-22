@@ -1,0 +1,62 @@
+
+body {
+    background-color: #304055; 
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+/* caja del juego */
+.wrapper {
+    background-color: #5c667c; 
+    padding: 30px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    text-align: center;
+    width: 30%;
+    height: 40%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #e7613c; 
+    color: #fff; 
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+    transition: background-color 0.2s ease; /* Transición suave para el efecto hover */
+}
+
+/* Efecto al pasar el mouse sobre los botones */
+button:hover {
+    background-color: #a5511c;
+}
+
+#texto-resultado {
+    font-size: 20px;
+    font-weight: 700;
+    min-height: 24px; 
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 18px;
+}
